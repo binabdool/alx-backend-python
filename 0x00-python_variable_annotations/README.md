@@ -25,12 +25,14 @@ Variable annotations were first introduced in PEP 484, where type comments are u
 It wasn’t until PEP 526 in Python 3.6 that variable annotations were introduced. There are several rules for writing variable annotations, such as the absence of spaces before or after colons.
 
 
-How do I access Python annotations?
+## How do I access Python annotations?
+
 To access annotations, you can use the “__ annotations __” attribute on the function object. The results are given in the form of a dictionary, with keys and values mapped to parameters and annotations respectively.
 
 Even if the return is not a parameter, it can be added by Python to indicate the function’s return type. If a function has no annotations, then the “__annotations__” attribute returns an empty dictionary.
 
-What are Python annotations for?
+## What are Python annotations for?
+
 The Python annotations have several uses. Firstly, they can be used to detect typing errors before runtime, thanks to third-party tools such as mypy that can check static typing and offer advice or warnings.
 
 The mypy tool was created by Jukka Lehtosalo to offer the advantages of a static typing environment for a dynamic language like Python. It can be used to check annotated code in Python and issue warnings in the event of inconsistent use.
