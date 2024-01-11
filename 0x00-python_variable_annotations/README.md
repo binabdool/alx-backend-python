@@ -24,7 +24,6 @@ Variable annotations were first introduced in PEP 484, where type comments are u
 
 It wasn’t until PEP 526 in Python 3.6 that variable annotations were introduced. There are several rules for writing variable annotations, such as the absence of spaces before or after colons.
 
-https://datascientest.com/wp-content/uploads/2022/07/annotation-python1.jpg
 
 How do I access Python annotations?
 To access annotations, you can use the “__ annotations __” attribute on the function object. The results are given in the form of a dictionary, with keys and values mapped to parameters and annotations respectively.
